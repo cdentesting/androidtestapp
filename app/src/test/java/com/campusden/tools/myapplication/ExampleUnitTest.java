@@ -18,4 +18,8 @@ public class ExampleUnitTest {
     public void answer_isCorrect() throws Exception {
         assertNotNull(R.id.answer);
     }
+    @Test
+    public void answer_isNotCorrect() throws Exception {
+        assertNull(R.id.answer);
+    }
 }
