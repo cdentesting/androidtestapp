@@ -19,7 +19,7 @@ public class ExampleUnitTest {
         assertNotNull(R.id.answer);
     }
     @Test
-    public void answer_isNotCorrect() throws Exception {
+    public void answer_isNottCorrect() throws Exception {
         assertNull(R.id.answer);
     }
 }
